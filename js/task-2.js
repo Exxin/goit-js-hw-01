@@ -1,7 +1,7 @@
 function getShippingMessage(country, price, deliveryFee) {
   var totalPrice = price + deliveryFee;
 
-  var message = "Shipping to " + country + " will cost " + totalPrice + " credits";
+  var message = `Shipping to ${country} will cost ${totalPrice} credits";
 
   return message;
 }
